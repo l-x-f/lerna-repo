@@ -1,6 +1,9 @@
 {
-  "name": "root",
+  "name": "lerna-repo",
   "private": true,
+  "scripts": {
+    "dev": "node ./packages/core/index.js"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
